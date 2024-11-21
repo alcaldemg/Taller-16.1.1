@@ -1,0 +1,30 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .card-body {
+    overflow-y: auto; /* Habilita el scroll solo en el contenido */
+    padding: 10px;
+  }
+  
+
+  body {
+    background-image: url('fondo-libro.jpg');
+    background-size: cover; /* Hace que la imagen cubra toda el área sin distorsionarse */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Hace que el fondo cubra toda la ventana del navegador */
+}
+/* Contenedor con sombra y borde redondeado */
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 15px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra difusa */
+  max-width: 700px; /* Ancho máximo */
+  width: 90%; /* Ancho relativo para que sea responsivo */
+  margin: 50px auto; /* Separación de 50px arriba, centrado horizontal */
+}
+
+#scrollContainer {
+  display: none; /* Oculto inicialmente */
+}
+
